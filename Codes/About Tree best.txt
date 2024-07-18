@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Info Tree,Human & Fish</title>
+</head>
+<body>
+<h1>About Tree </h1>
+
+<p>In botany, a tree is a perennial plant with an elongated stem, or trunk, usually supporting
+branches and leaves. In some usages, the definition of a tree may be narrower, including only
+woody plants with secondary growth, plants that are usable as lumber or plants above a
+specified height. </p>
+
+<h2>About Human</h2>
+<p>Humans or modern humans are the most common and widespread species of primate, and
+the last surviving species of the genus Homo. They are a great ape characterized by their
+hairlessness, bipedalism, and high intelligence. </p>
+<h3>About Fish </h3>
+<p>A fish is an aquatic, gill-bearing animal with a hard skull that lacks limbs with digits. This
+includes hagfish, lampreys, and both cartilaginous and bony fishes. Some 96% of living fish
+species are teleosts, bony fishes able to protrude their jaws. </p>
+
+</body>
+</html>

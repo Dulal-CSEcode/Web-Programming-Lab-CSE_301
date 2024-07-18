@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Home Page </title>
+</head>
+<body>
+<h1>My First Heading</h1>
+<p><B>My first paragraph.</B></p>
+<p><strong>My first paragraph.</strong></p>
+<p><i>My first paragraph.</i></p>
+<p><em>My first paragraph.</em></p>
+<p><small>My first paragraph.</small></p>
+<p>please mark the <mark> word </mark></p>
+</body>
+</html>
