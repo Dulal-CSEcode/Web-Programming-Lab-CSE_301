@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Factorial and Palindrome Checker</title>
+  <script>
+    function calculateFactorialAndCheckPalindrome() {
+      var num = parseInt(prompt("Enter a number to calculate its factorial:"));
+      var factorial = 1;
+      var originalNum = num;
+      for (var i = num; i >= 1; i--) {
+        factorial *= i;
+      }
+      var reversedFactorial = reverseNumber(factorial);
+      var isPalindrome = originalNum === reversedFactorial;
+      if (isPalindrome) {
+        alert(originalNum + "! = " + factorial + " is a palindrome.");
+      } else {
+        alert(originalNum + "! = " + factorial + " is not a palindrome.");
+      }
+    }
+    function reverseNumber(num) {
+      var reversed = 0;
+      var originalNum = num;
+      while (num > 0) {
+        var remainder = num % 10;
+        reversed = (reversed * 10) + remainder;
+        num = Math.floor(num / 10);
+      }
+      return reversed;
+    }
+  </script>
+</head>
+<body>
+<button onclick="calculateFactorialAndCheckPalindrome()">Calculate Factorial and Check Palindrome</button>
+</body>
+</html>

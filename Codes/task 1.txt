@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Largest Number Checker</title>
+  <script>
+    function findLargestNumber() {
+      var num1 = parseFloat(prompt("Enter the first number:"));
+      var num2 = parseFloat(prompt("Enter the second number:"));
+      var num3 = parseFloat(prompt("Enter the third number:"));
+      var largest = num1; 
+      if (num2 > largest) {
+        largest = num2; 
+      }
+      if (num3 > largest) {
+        largest = num3; 
+      }
+      alert("The largest number is: " + largest);
+    }
+  </script>
+</head>
+<body>
+<button onclick="findLargestNumber()">Find the largest number</button>
+</body>
+</html>
