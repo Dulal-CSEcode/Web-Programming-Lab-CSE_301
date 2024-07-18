@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creating List</title>
+    <style>
+        /* Define square list markers */
+        ul {
+            list-style-type: square;
+        }
+
+        /* Nested list style */
+        ul ul {
+            list-style-type: circle;
+        }
+
+        /* Further nested list style */
+        ul ul ul {
+            list-style-type: disc;
+        }
+    </style>
+</head>
+<body>
+    <h2>Unordered HTML List</h2>
+    <ul>
+        <li>Square</li>
+        <li>Circle</li>
+        <li>Disc</li>
+        <li>None</li>
+    </ul>
+    <h3>Nested Unordered lists</h3>
+    <ul>
+        <li>Sandwiches
+            <ul>
+                <li>Ham and Cheese</li>
+                <li>Grilled Cheese</li>
+            </ul>
+        </li>
+        <li>Snacks
+            <ul>
+                <li>Nacho Cheese French Fries</li>
+                <li>Cheese and crackers</li>
+            </ul>
+        </li>
+    </ul>
+</body>
+</html>
